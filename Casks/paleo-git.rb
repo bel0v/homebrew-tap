@@ -3,7 +3,7 @@ cask "paleo-git" do
   name "paleo-git"
   desc "Track code migration progress in git repositories"
   homepage "https://github.com/bel0v/paleo-git"
-  version "0.1.2"
+  version "0.2.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "paleo-git" do
   on_macos do
     on_intel do
       url "https://github.com/bel0v/paleo-git/releases/download/v#{version}/paleo-git_darwin_amd64.tar.gz"
-      sha256 "7711ae6a445000f21db9a55cc67e0747f8e57a2b28df16582cf23bb902496ce1"
+      sha256 "9e0f4cf7076d4e78b8223a117afaf35677ee220f08e2b160a942ecb75d0bb7dc"
     end
     on_arm do
       url "https://github.com/bel0v/paleo-git/releases/download/v#{version}/paleo-git_darwin_arm64.tar.gz"
-      sha256 "c7633562ae7efe87f8c7126db608ca91f49ee3493ae8af93fe4b07ac7a4f5a1f"
+      sha256 "f8abf4a0adf497ad4a0400fdae31a6c0c655a3d50a5fc827b079b640a7b03f7b"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/bel0v/paleo-git/releases/download/v#{version}/paleo-git_linux_amd64.tar.gz"
-      sha256 "96bc784c148327a5e4dcd5f922cf3fc8543aa139e108e00e9b8f49624bfad0b3"
+      sha256 "b8ad4de6f077470da9734ec668fc254eedc8e5ff0a3b4988165c85bb0ed4ba87"
     end
     on_arm do
       url "https://github.com/bel0v/paleo-git/releases/download/v#{version}/paleo-git_linux_arm64.tar.gz"
-      sha256 "016dc54eea1e4bfa9648a673610753bf659151278ebc5b94be612ceacf53073c"
+      sha256 "379f40f8c24177376da703e3ca95d766e05f5d2b669c54d32e7a98cf36a34d96"
     end
   end
 
